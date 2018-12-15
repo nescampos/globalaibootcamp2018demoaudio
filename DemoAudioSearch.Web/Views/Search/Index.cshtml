@@ -1,0 +1,43 @@
+﻿@model DemoAudioSearch.Web.Models.SearchModel.IndexBuscadorViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Buscador de audio</h2>
+
+@using (Html.BeginForm(null, null, FormMethod.Get))
+{
+    <p>
+        Buscar: @Html.TextBox("q")
+    </p>
+    <input type="submit" value="Buscar" />
+}
+
+
+@if(Model.Resultados.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Nombre</th>
+                <th>Palabras clave</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var resultado in Model.Resultados)
+            {
+            <tr>
+                <td></td>
+                <td>
+                    @Html.ActionLink(resultado.Document.Nombre,"Detalle",new { nombre = resultado.Document.Nombre })
+                </td>
+                <td>
+                    @resultado.Document.TextoCorto
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+}

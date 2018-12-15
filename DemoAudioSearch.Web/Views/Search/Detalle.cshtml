@@ -1,0 +1,47 @@
+﻿@model DemoAudioSearch.Web.Models.SearchModel.DetalleViewModel
+
+@{
+    ViewBag.Title = "Detalle";
+}
+
+<h2>Detalle @Model.Audio.Nombre</h2>
+
+<h3>Palabras clave</h3>
+<p class="alert-success">@Model.Audio.PalabrasClave</p>
+
+
+<h3>Texto completo</h3>
+<p>@Model.Audio.Texto</p>
+
+<h3>Entidades</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <td>Nombre</td>
+            <td>Tipo</td>
+            <td>Subtipo</td>
+            <td>URL Wikipedia</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var entidad in Model.Audio.Entidades)
+        {
+        <tr>
+            <td>
+                @entidad.Nombre
+            </td>
+            <td>
+                @entidad.Tipo
+            </td>
+            <td>
+                @entidad.Subtipo
+            </td>
+           
+            <td>
+                @entidad.WikipediaURL
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

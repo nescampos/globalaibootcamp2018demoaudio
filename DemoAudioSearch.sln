@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAudioSearch.Web", "DemoAudioSearch.Web\DemoAudioSearch.Web.csproj", "{EF739470-5391-4928-ABB9-FEDD9F8B5CFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAudioSearch.Procesador", "DemoAudioSearch.Procesador\DemoAudioSearch.Procesador.csproj", "{02188561-84E5-4D69-8734-F5B388DDC86C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF739470-5391-4928-ABB9-FEDD9F8B5CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF739470-5391-4928-ABB9-FEDD9F8B5CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF739470-5391-4928-ABB9-FEDD9F8B5CFA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EF739470-5391-4928-ABB9-FEDD9F8B5CFA}.Debug|x64.Build.0 = Debug|Any CPU
+		{EF739470-5391-4928-ABB9-FEDD9F8B5CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF739470-5391-4928-ABB9-FEDD9F8B5CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF739470-5391-4928-ABB9-FEDD9F8B5CFA}.Release|x64.ActiveCfg = Release|Any CPU
+		{EF739470-5391-4928-ABB9-FEDD9F8B5CFA}.Release|x64.Build.0 = Release|Any CPU
+		{02188561-84E5-4D69-8734-F5B388DDC86C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02188561-84E5-4D69-8734-F5B388DDC86C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02188561-84E5-4D69-8734-F5B388DDC86C}.Debug|x64.ActiveCfg = Debug|x64
+		{02188561-84E5-4D69-8734-F5B388DDC86C}.Debug|x64.Build.0 = Debug|x64
+		{02188561-84E5-4D69-8734-F5B388DDC86C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02188561-84E5-4D69-8734-F5B388DDC86C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02188561-84E5-4D69-8734-F5B388DDC86C}.Release|x64.ActiveCfg = Release|Any CPU
+		{02188561-84E5-4D69-8734-F5B388DDC86C}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {068358F9-453C-4FC2-B76B-5650F2669120}
+	EndGlobalSection
+EndGlobal
